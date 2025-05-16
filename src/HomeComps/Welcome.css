@@ -1,0 +1,25 @@
+.welcome {
+  display: grid;
+  gap: 1ch;
+  width: 30ch;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+}
+
+button {
+  padding: 0.25rem;
+  background: #fff;
+}
+
+button:hover {
+  cursor: pointer;
+  background: #eee;
+}
+
+button:active {
+  background: #ddd;
+}
+
+.highscores ul {
+  list-style: none;
+}
